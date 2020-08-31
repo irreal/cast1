@@ -9,7 +9,9 @@
     <h1>Allright, old chaps. We are in business</h1>
     <!-- <cast-media-player></cast-media-player> -->
     <script>
-      cast.framework.CastReceiverContext.getInstance().start();
+      cast.framework.CastReceiverContext.getInstance().start({
+        touchScreenOptimizedApp: true,
+      });
     </script>
   </body>
 </html>
